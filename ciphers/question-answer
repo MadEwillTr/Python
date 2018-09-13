@@ -1,0 +1,16 @@
+print("Hi")
+
+while(True):
+  exit = int(input("İf Are You Want To Exit, Press 1. You Don't Want Press 2."))
+  if exit == 1:
+    print("Succesfull")
+    break
+   elif exit == 2:
+    name = input("Please Enter Your Name :")
+    print("Hi",name)
+    question = input("How Old Are You ?")
+    if question >= 18:
+      print("You Can Enter Here ! (But That's Not Continue :))")
+    else:
+      print("You Can't Enter Here !")
+     break
